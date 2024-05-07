@@ -6,6 +6,7 @@
 :root {
   --font-family: "Inter", sans-serif;
   --poligest-blue:  #0087D4;
+  --poligest-blue-dark: #006ba9;
   --poligest-green: #1CC159;
   --primary: #155bd5;
   --primary-dark: #1c3ab6;
@@ -280,7 +281,7 @@ p {
   color: var(--poligest-blue);
 }
 .active.primary-btn-outline, .primary-btn-outline:hover, .primary-btn-outline:focus {
-  background: var(--primary-dark);
+  background: var(--poligest-blue-dark);
   color: var(--white);
 }
 .deactive.primary-btn-outline {
@@ -903,7 +904,7 @@ p {
   box-shadow: var(--shadow-2);
 }
 .header-eight .active.primary-btn, .header-eight .primary-btn:hover, .header-eight .primary-btn:focus {
-  background: var(--poligest-blue-dark);
+  background: var(--poligest-blue);
   color: var(--white);
   box-shadow: var(--shadow-4);
 }
@@ -917,9 +918,23 @@ p {
     header Area CSS
 ========================================*/
 .header-eight {
+  z-index: 2;
   position: relative;
   padding:160px 0 100px 0;
-  background: var(--poligest-blue);
+  background: linear-gradient(27deg, rgba(0,135,212,1) 0%, rgba(28,193,89,1) 97%);
+}
+.header-eight::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/images/call-action/overlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: -1;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
@@ -1616,7 +1631,7 @@ p {
   box-shadow: var(--shadow-2);
 }
 .contact-form-wrapper .contact-form .active.primary-btn, .contact-form-wrapper .contact-form .primary-btn:hover, .contact-form-wrapper .contact-form .primary-btn:focus {
-  background: var(--primary-dark);
+  background: var(--poligest-blue-dark);
   color: var(--white);
   box-shadow: var(--shadow-4);
 }
@@ -1844,7 +1859,7 @@ p {
   color: var(--poligest-blue);
 }
 .footer-eleven .f-about .copyright-text a:hover {
-  color: var(--primary-dark);
+  color: var(--poligest-blue-dark);
 }
 .footer-eleven .f-link li {
   display: block;
@@ -1912,7 +1927,7 @@ p {
 }
 .footer-eleven .newsletter-form .sub-btn:hover {
   color: var(--white);
-  background-color: var(--primary-dark);
+  background-color: var(--poligest-blue-dark);
 }
 
 /* CARROSSEL */
@@ -2017,7 +2032,24 @@ p {
 }
 /* CARROSSEL FIM */
 
+
 .tenda {
   border-radius: 10px;
   border: #FFF solid;
+}
+
+/* MODAL */
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.btn-close {
+position:absolute;
+right:-30px;
+top:0;
 }

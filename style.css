@@ -5,6 +5,7 @@
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
+  --poligest-font: "Century Gothic Paneuropean", sans-serif;
   --poligest-blue:  #0087D4;
   --poligest-blue-dark: #006ba9;
   --poligest-green: #1CC159;
@@ -65,7 +66,7 @@
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--poligest-font);
   color: var(--black);
   font-size: 16px;
 }

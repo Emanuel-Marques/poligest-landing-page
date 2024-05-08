@@ -1400,7 +1400,7 @@ p {
   color: var(--dark-3);
   font-size: 20px;
   position: absolute;
-  left: 0;
+  left: -35px;
   top: 6px;
 }
 .pricing-style-fourteen .duration {

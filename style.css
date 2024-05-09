@@ -2138,3 +2138,6 @@ top:0;
   border-radius: 50%;
   border: 1px solid transparent;
 }
+ button:disabled{
+  cursor: not-allowed !important;
+ }

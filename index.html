@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="style.css" />
+  <script defer src="assets/js/email.service.js"></script>
 </head>
 
 <body>
@@ -816,7 +817,7 @@
         <div class="col-lg-8 offset-lg-2 col-12">
           <div class="clients-logos">
             <div class="single-image">
-              <img src="assets/images/client-logo/graygrids.svg" alt="Brand Logo Images" />
+              <img src="assets/images/client-logo/ispocab.jpeg" alt="Brand Logo Images" />
             </div>
             <div class="single-image">
               <img src="assets/images/client-logo/uideck.svg" alt="Brand Logo Images" />
@@ -901,7 +902,7 @@
                 </div>
               </div>
             </div>
-            <form action="#" class="contact-form">
+            <form action="https://formsubmit.co/ajax/wydoaputaro585@gmail.com" method="POST" id="formulario" data-form class="contact-form">
               <div class="row">
                 <div class="col-md-6">
                   <input type="text" name="name" id="name" placeholder="Nome" required />
@@ -925,8 +926,9 @@
               </div>
               <div class="row">
                 <div class="col-12">
+                  <div id="alerta"></div>
                   <div class="button text-center rounded-buttons">
-                    <button type="submit" class="btn primary-btn rounded-full">
+                    <button type="submit" id="buttonEnviar" data-button class="btn primary-btn rounded-full">
                       Envie sua mensagem
                     </button>
                   </div>
@@ -1035,11 +1037,11 @@
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/carousel.js"></script>
+  
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
-
   <script>
 
     //===== close navbar-collapse when a  clicked

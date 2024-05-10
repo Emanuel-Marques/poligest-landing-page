@@ -348,6 +348,9 @@ p {
   .section-title-five {
     margin-bottom: 35px;
   }
+  .details {
+    margin: 10px 10px 30px 10px !important;
+  }
 }
 .section-title-five h6 {
   font-weight: 600;
@@ -1846,7 +1849,7 @@ p {
 }
 .footer-eleven .f-about .copyright-text {
   color: var(--dark-3);
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .footer-eleven .f-about .copyright-text span {
   display: block;

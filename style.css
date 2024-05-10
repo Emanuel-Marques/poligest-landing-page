@@ -1124,6 +1124,7 @@ p {
   padding-top: 30px;
 }
 .about-five-content .about-five-tab .tab-content p {
+  text-align: justify;
   margin-bottom: 20px;
 }
 .about-five-content .about-five-tab .tab-content p:last-child {
@@ -1849,7 +1850,7 @@ p {
 }
 .footer-eleven .f-about .copyright-text {
   color: var(--dark-3);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .footer-eleven .f-about .copyright-text span {
   display: block;

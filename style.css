@@ -1963,15 +1963,15 @@ p {
 }
 
 .slide-1{
-  background-image: url(assets/images/banner1.jpg);
+  background-image: url(assets/images/bg1.jpg);
 }
 
 .slide-2{
-  background-image: url(assets/images/banner2.jpg);
+  background-image: url(assets/images/bg3.jpg);
 }
 
 .slide-3{
-  background-image: url(assets/images/banner3.jpg);
+  background-image: url(assets/images/bg2.jpg);
 }
 
 .slide-content{
@@ -2144,4 +2144,11 @@ top:0;
 }
  button:disabled{
   cursor: not-allowed !important;
+ }
+
+ .quote {
+  margin-top: 15px;
+  font-style: italic;
+  color: var(--dark-3);
+  font-size: 13px;
  }

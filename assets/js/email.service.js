@@ -1,5 +1,5 @@
 class FormSubmit {
-    emails = ['geral@poligest.ao', 'tomas.gomes@poligest.ao', 'wydoaputaro585@gmail.com'];
+    emails = ['geral@poligest.ao', 'tomas.gomes@poligest.ao'];
     constructor(settings) {
         this.settings = settings;
         console.log(document.getElementById(settings.form));
